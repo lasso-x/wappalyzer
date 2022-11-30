@@ -1,4 +1,6 @@
 {
+  "name": "wappalyzer",
+  "version": "0.0.0",
   "dependencies": {
     "@prantlf/jsonlint": "^10.2.0",
     "adm-zip": "^0.4.16",
