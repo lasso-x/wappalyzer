@@ -1843,5 +1843,20 @@
     },
     "scriptSrc": "deepMiner\\.js",
     "website": "https://github.com/deepwn/deepMiner"
+  },
+  "danDomain": {
+    "description": "DanDomain is a danish domain registrar and webhosting service.",
+    "cats": [
+      88
+    ],
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "meta": {
+      "generator": "DanDomain Webshop"
+    },
+    "icon": "DanDomain.png",
+    "website": "https://dandomain.dk/"
   }
 }
