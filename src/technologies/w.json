@@ -85,6 +85,24 @@
     "requires": "WordPress",
     "website": "https://wenthemes.com/item/wordpress-themes/signify-dark"
   },
+  "Weply": {
+    "cats": [
+      52
+    ],
+    "description": "Weply is a Nordic lead generation chat system designed to enhance lead generation from existing website traffic.",
+    "icon": "Weply.svg",
+    "js": {
+      "$$weply": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.weply\\.chat/"
+    ],
+    "website": "https://weply.chat"
+  },
   "WHMCS": {
     "cats": [
       1
