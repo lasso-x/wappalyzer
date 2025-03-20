@@ -18,7 +18,7 @@
     "terminal-overwrite": "^2.0.1"
   },
   "scripts": {
-    "link": "node ./bin/link.js; node ./bin/manifest.js v3",
+    "link": "node ./bin/link.js && node ./bin/manifest.js v3",
     "lint": "eslint src/**/*.{js,json}",
     "lint:fix": "eslint --fix src/**/*.{js,json}",
     "validate": "yarn run lint && jsonlint -qV ./schema.json ./src/technologies/ && node ./bin/validate.js",
@@ -36,7 +36,7 @@
     "url": "https://github.com/lasso-x/wappalyzer/issues"
   },
   "homepage": "https://github.com/lasso-x/wappalyzer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publishConfig": {
     "@lasso-x:registry": "https://npm.pkg.github.com"
   }

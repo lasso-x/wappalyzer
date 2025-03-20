@@ -1,10 +1,42 @@
 # Lasso X: How to deploy
-use linux (`wsl`) if you're on windows
-1. Bump the version in `package.json`
+This is silly but its a hack to deploy it without committing to a proper rewrite
 2. Run these commands:
 ```
+yarn install
+yarn run build (will probably fail)
+cd src\drivers\npm
+replace the package.json with the one below (bump the version)
 npm login --scope=@lasso-x --registry=https://npm.pkg.github.com // Use a personal token as password
-npm publish --registry=https://npm.pkg.github.com
+npm publish --scope=@lasso-x --registry=https://npm.pkg.github.com
+```
+
+```
+{
+  "name": "@lasso-x/wappalyzer",
+  "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lasso-x/wappalyzer.git"
+  },
+  "main": "driver.js",
+  "files": [
+    "cli.js",
+    "categories.json",
+    "driver.js",
+    "index.js",
+    "technologies/*",
+    "wappalyzer.js"
+  ],
+  "bin": {
+    "wappalyzer": "./cli.js"
+  },
+  "dependencies": {
+    "puppeteer": "~19.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
 ```
 
 
