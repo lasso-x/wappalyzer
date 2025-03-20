@@ -1,3 +1,13 @@
+# Lasso X: How to deploy
+use linux (`wsl`) if you're on windows
+1. Bump the version in `package.json`
+2. Run these commands:
+```
+npm login --scope=@lasso-x --registry=https://npm.pkg.github.com // Use a personal token as password
+npm publish --registry=https://npm.pkg.github.com
+```
+
+
 [![Validate](https://github.com/wappalyzer/wappalyzer/actions/workflows/validate.yml/badge.svg)](https://github.com/wappalyzer/wappalyzer/actions/workflows/validate.yml)
 [![wappalyzer NPM](https://img.shields.io/badge/npm-wappalyzer-blue)](https://www.npmjs.com/package/wappalyzer)
 [![wappalyzer-core NPM](https://img.shields.io/badge/npm-wappalyzer--core-blue)](https://www.npmjs.com/package/wappalyzer-core)

@@ -16,7 +16,7 @@ const { CHROMIUM_BIN, CHROMIUM_DATA_DIR, CHROMIUM_WEBSOCKET, CHROMIUM_ARGS } =
 const chromiumArgs = CHROMIUM_ARGS
   ? CHROMIUM_ARGS.split(' ')
   : [
-      //'--single-process',
+      // '--single-process', // Fix wappalyzer not running
       '--no-sandbox',
       '--no-zygote',
       '--disable-gpu',

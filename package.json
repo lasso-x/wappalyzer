@@ -1,5 +1,5 @@
 {
-  "name": "wappalyzer",
+  "name": "@lasso-x/wappalyzer",
   "dependencies": {
     "@prantlf/jsonlint": "^10.2.0",
     "adm-zip": "^0.4.16",
@@ -36,7 +36,7 @@
     "url": "https://github.com/lasso-x/wappalyzer/issues"
   },
   "homepage": "https://github.com/lasso-x/wappalyzer",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "publishConfig": {
     "@lasso-x:registry": "https://npm.pkg.github.com"
   }
