@@ -25,6 +25,21 @@
     "scriptSrc": "bitrix(?:\\.info/|/js/main/core)",
     "website": "http://www.1c-bitrix.ru"
   },
+  "2-People": {
+    "cats": [
+      101
+    ],
+    "description": "2people is a modular HR suite covering employee data, recruitment, onboarding, time & absence and compliance.", 
+    "dom": "a[href*='.2prec.com']",
+    "icon": "2people.png",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://2people.com"
+  },
   "2B Advice": {
     "cats": [
       67

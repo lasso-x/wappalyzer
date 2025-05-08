@@ -165,6 +165,21 @@
     "scriptSrc": "easyhide\\.herculesapps\\.com/",
     "website": "https://apps.shopify.com/easyhide"
   },
+  "EasyCruit": {
+    "cats": [
+      101
+    ],
+    "description": "Visma EasyCruit is a cloud applicant-tracking solution for multi-department, multi-language hiring with automated screening.", 
+    "dom": "iframe[src*='.easycruit.com']",
+    "icon": "EasyCruit.png",
+    "pricing": [
+      "poa",
+      "recurring",
+      "low"
+    ],
+    "saas": true,
+    "website": "https://easycruit.com"
+  },
   "Easy Redirects": {
     "cats": [
       100
@@ -679,6 +694,25 @@
     "scriptSrc": "elqCfg\\.js",
     "website": "http://eloqua.com"
   },
+  "Elvium": {
+      "cats": [
+        101
+      ],
+      "description": "Elvium is a danish recruitment and HR platform with AI-driven candidate screening, onboarding workflows and digital contract management.",
+      "dom": [
+        "a[href*='.elvium.com/da/positions']",
+        "a[href*='.elvium.com/sv/positions']",
+        "a[href*='.elvium.com/en/positions']"
+      ],
+      "icon": "elvium.png",
+      "pricing": [
+        "poa",
+        "recurring",
+        "mid"
+      ],
+      "saas": true,
+      "website": "https://elvium.com"
+    },
   "Emarsys": {
     "cats": [
       32,
@@ -812,6 +846,24 @@
     "saas": true,
     "scriptSrc": "emotivecdn\\.io/",
     "website": "https://emotive.io"
+  },
+  "Emply": {
+    "cats": [
+      101
+    ],
+    "description": "Emply is a unified HR platform tying recruitment, onboarding, core HR, feedback and learning into one system.", 
+    "dom": [
+      "a[href*='.career.emply.com']",
+      "a[href*='.emply.net/recruitment']"
+    ],
+    "icon": "emply.png",
+    "pricing": [
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://emply.com"
   },
   "Empretienda": {
     "cats": [

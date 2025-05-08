@@ -13,7 +13,7 @@ npm publish --scope=@lasso-x --registry=https://npm.pkg.github.com
 ```
 {
   "name": "@lasso-x/wappalyzer",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/lasso-x/wappalyzer.git"

@@ -481,6 +481,22 @@
     "saas": true,
     "website": "https://takedrop.pl"
   },
+  "Talentech / HR Manager": {
+    "cats": [
+      101
+    ],
+    "description": "Talentech is a unified recruitment, onboarding, talent management and HR administration platform.", 
+    "dom": "iframe[src*='.hr-manager.net']",
+    "icon": "talentech.jpg",
+    "pricing": [
+      "freemium",
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://talentech.com"
+  },
   "Talkable": {
     "cats": [
       74,

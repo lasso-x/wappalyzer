@@ -769,7 +769,11 @@
       101
     ],
     "description": "Recruitee is an integrated cloud-based recruitment management and applicant tracking system.",
-    "dom": "a[href*='.recruitee.com']",
+    "dom": [
+      "a[href*='.recruitee.com']",
+      "script[src*='recruitee.com']",
+      "meta[content*='careers.recruiteecdn.com']"
+    ],
     "icon": "Recruitee.svg",
     "js": {
       "RtApp.mapBoxToken": ""
@@ -1163,6 +1167,24 @@
     "saas": true,
     "scriptSrc": "\\.reputon\\.com/",
     "website": "https://reputon.com"
+  },
+  "Reqruiting": {
+    "cats": [
+      101
+    ],
+    "description": "ReQruiting is an all-in-one HR and recruitment system for Danish SMEs with ATS, HR master-data, onboarding and whistle-blower/timesheet tools.",
+    "dom": [
+      "script[src*='reqruiting.com']",
+      "link[href*='reqruiting.com']"
+    ],
+    "icon": "Reqruiting.jpg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "low"
+    ],
+    "saas": true,
+    "website": "https://reqruiting.com"
   },
   "RequireJS": {
     "cats": [
