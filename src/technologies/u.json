@@ -624,6 +624,24 @@
     ],
     "website": "http://userlike.com"
   },
+  "UserLink": {
+    "cats": [
+      52
+    ],
+    "description": "UserLink is a customer service chatbot platform that supplies AI-powered live-chat and chatbot agents.",
+    "pricing": [
+      "payg",
+      "low",
+      "mid",
+      "recurring"
+    ],
+    "icon": "userlink.png",
+    "scriptSrc": [
+      "files\\.userlink\\.ai/public/chatbot\\.js",
+      "files\\.userlink\\.ai/public/embed\\.min\\.js"
+    ],
+    "website": "https://userlink.ai"
+  },
   "UserReport": {
     "cats": [
       13,
