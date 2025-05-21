@@ -1177,7 +1177,7 @@
       "script[src*='reqruiting.com']",
       "link[href*='reqruiting.com']"
     ],
-    "icon": "Reqruiting.jpg",
+    "icon": "Reqruiting.png",
     "pricing": [
       "mid",
       "recurring",

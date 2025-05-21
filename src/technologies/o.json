@@ -1019,7 +1019,7 @@
     ],
     "description": "OpenRecruit is an applicant tracing system (ATS) focused on “open recruiting” that automates candidate matching, employer branding and integrations",
     "dom": "a[href*='.recruitio.dk']",
-    "icon": "openrecruit.jpg",
+    "icon": "openrecruit.png",
     "pricing": [
       "poa",
       "recurring",

@@ -1,6 +1,6 @@
 # Lasso X: How to deploy
 This is silly but its a hack to deploy it without committing to a proper rewrite
-2. Run these commands:
+Run these commands:
 ```
 yarn install
 yarn run build (will probably fail)

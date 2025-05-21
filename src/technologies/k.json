@@ -510,7 +510,7 @@
       52
     ],
     "description": "Kindly.ai is a Norwegian conversational-AI platform that equips enterprise-scale e-commerce sites with multilingual chatbots that automate support, recover carts and drive sales.",
-    "icon": "Kindly.png",
+    "icon": "kindly.png",
     "js": {
       "Kindly": ""
     },

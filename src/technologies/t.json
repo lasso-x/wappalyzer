@@ -487,7 +487,7 @@
     ],
     "description": "Talentech is a unified recruitment, onboarding, talent management and HR administration platform.", 
     "dom": "iframe[src*='.hr-manager.net']",
-    "icon": "talentech.jpg",
+    "icon": "talentech.png",
     "pricing": [
       "freemium",
       "poa",
