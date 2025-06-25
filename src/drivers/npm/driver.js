@@ -1047,8 +1047,12 @@ class Site {
     await Promise.allSettled([
       (async () => {
         try {
-          const links = ((await this.goto(url)) || []).filter(
-            ({ href }) => !this.analyzedUrls[href]
+          const links = Array.from(
+            new Map(
+              (((await this.goto(url)) || []).filter(
+                ({ href }) => !this.analyzedUrls[href]
+              )).map(link => [link.href, link])
+            ).values()
           )
 
           if (
@@ -1057,12 +1061,8 @@ class Site {
             Object.keys(this.analyzedUrls).length < this.options.maxUrls &&
             depth < this.options.maxDepth
           ) {
-            await this.batch(
-              links.slice(
-                0,
-                this.options.maxUrls - Object.keys(this.analyzedUrls).length
-              ),
-              depth + 1
+            const linksBatch = links.slice(0, this.options.maxUrls - Object.keys(this.analyzedUrls).length)
+            await this.batch(linksBatch,depth + 1
             )
           }
         } catch (error) {
