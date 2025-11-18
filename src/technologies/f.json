@@ -889,6 +889,14 @@
     ],
     "website": "https://woocommerce.com/flexslider/"
   },
+  "Flexybox": {
+    "cats": [
+      72
+    ],
+    "description": "Flexybox is a membership-management and bookings platform tailored for fitness centres and activity venues, covering classes, access control, billing and loyalty.",
+    "website": "https://flexybox.com",
+    "dom": "a[href*='.flexybox.com']"
+  },
   "Flickity": {
     "cats": [
       59

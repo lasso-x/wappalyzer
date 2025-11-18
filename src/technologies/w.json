@@ -1467,6 +1467,14 @@
     "scriptSrc": "WCF\\..*\\.js",
     "website": "http://www.woltlab.com"
   },
+  "Wondr": {
+    "cats": [
+      72
+    ],
+    "description": "Wondr is an all-in-one business system for fitness facilities covering bookings, memberships, payments and operations.",
+    "website": "https://wondr.cc",
+    "dom": "a[href*='.wondr.cc']"
+  },
   "WooCommerce": {
     "cats": [
       6,

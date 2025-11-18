@@ -128,6 +128,14 @@
     "saas": true,
     "website": "https://www.polipayments.com"
   },
+  "Pondus": {
+    "cats": [
+      72
+    ],
+    "description": "Pondus is a member-management platform for fitness centres, offering bookings, payments, retention analytics and class scheduling.",
+    "website": "https://pondus.io",
+    "dom": "a[href*='.pondus.io']"
+  },
   "POWR": {
     "cats": [
       5
