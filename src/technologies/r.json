@@ -1175,7 +1175,8 @@
     "description": "ReQruiting is an all-in-one HR and recruitment system for Danish SMEs with ATS, HR master-data, onboarding and whistle-blower/timesheet tools.",
     "dom": [
       "script[src*='reqruiting.com']",
-      "link[href*='reqruiting.com']"
+      "link[href*='reqruiting.com']",
+      "a[href*='reqruiting.com']"
     ],
     "icon": "Reqruiting.png",
     "pricing": [

@@ -30,7 +30,7 @@
       101
     ],
     "description": "2people is a modular HR suite covering employee data, recruitment, onboarding, time & absence and compliance.", 
-    "dom": "a[href*='.2prec.com']",
+    "dom": "a[href*='.2prec.com'], script[src*='api.2people.com']",
     "icon": "2people.png",
     "pricing": [
       "low",

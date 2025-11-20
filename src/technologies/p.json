@@ -132,6 +132,7 @@
     "cats": [
       72
     ],
+    "saas": true,
     "description": "Pondus is a member-management platform for fitness centres, offering bookings, payments, retention analytics and class scheduling.",
     "website": "https://pondus.io",
     "dom": "a[href*='.pondus.io']"

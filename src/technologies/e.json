@@ -170,7 +170,7 @@
       101
     ],
     "description": "Visma EasyCruit is a cloud applicant-tracking solution for multi-department, multi-language hiring with automated screening.", 
-    "dom": "iframe[src*='.easycruit.com']",
+    "dom": "iframe[src*='.easycruit.com'], a[href*='.easycruit.com']",
     "icon": "EasyCruit.png",
     "pricing": [
       "poa",

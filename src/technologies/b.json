@@ -68,6 +68,7 @@
     "cats": [
       72
     ],
+    "saas": true,
     "description": "BRP Systems (Also known as Go Active and Sport Solution) is a platform for managing fitness-facility operations, including memberships, bookings, payments and class scheduling.",
     "website": "https://www.brpsystems.com",
     "dom": "a[href*='.goactivebooking.com'], a[href*='sport-solution.com/']"
@@ -1499,6 +1500,7 @@
     "cats": [
       72
     ],
+    "saas": true,
     "description": "Booking Board is a gym-management platform that handles bookings, memberships, billing and access control for fitness facilities.",
     "website": "https://bookingboard.io",
     "dom": "a[href*='.bookingboard.io']"
