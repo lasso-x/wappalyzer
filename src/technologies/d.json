@@ -1847,6 +1847,7 @@
   "danDomain": {
     "description": "DanDomain is a danish domain registrar and webhosting service.",
     "cats": [
+      1,
       88
     ],
     "pricing": [
