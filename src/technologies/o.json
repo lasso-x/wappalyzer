@@ -1013,21 +1013,6 @@
     "scriptSrc": "openpay\\.com.\\au",
     "website": "https://www.openpay.com.au/"
   },
-  "OpenRecruit": {
-    "cats": [
-      101
-    ],
-    "description": "OpenRecruit is an applicant tracing system (ATS) focused on “open recruiting” that automates candidate matching, employer branding and integrations",
-    "dom": "a[href*='.recruitio.dk']",
-    "icon": "openrecruit.png",
-    "pricing": [
-      "poa",
-      "recurring",
-      "mid"
-    ],
-    "saas": true,
-    "website": "https://openrecruit.net"
-  },
   "OpenResty": {
     "cats": [
       22

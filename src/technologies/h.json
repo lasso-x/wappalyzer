@@ -1132,21 +1132,6 @@
     ],
     "website": "https://howlerjs.com"
   },
-  "HR-ON": {
-    "cats": [
-      101
-    ],
-    "description": "HR-ON is a recruitment, onboarding and day-to-day HR administration system.", 
-    "scriptSrc": "\\.hr-on\\.com",
-    "icon": "HR-ON.png",
-    "pricing": [
-      "poa",
-      "recurring",
-      "mid"
-    ],
-    "saas": true,
-    "website": "https://hr-on.com"
-  },
   "HrFlow.ai": {
     "cats": [
       101

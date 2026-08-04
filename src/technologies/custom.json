@@ -1,0 +1,267 @@
+{
+  "2-People": {
+    "cats": [
+      101
+    ],
+    "description": "2people is a modular HR suite covering employee data, recruitment, onboarding, time & absence and compliance.",
+    "dom": "a[href*='.2prec.com'], script[src*='api.2people.com']",
+    "icon": "2people.png",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://2people.com"
+  },
+  "BRP Systems": {
+    "cats": [
+      72
+    ],
+    "saas": true,
+    "description": "BRP Systems (Also known as Go Active and Sport Solution) is a platform for managing fitness-facility operations, including memberships, bookings, payments and class scheduling.",
+    "website": "https://www.brpsystems.com",
+    "dom": "a[href*='.goactivebooking.com'], a[href*='sport-solution.com/']"
+  },
+  "Booking Board": {
+    "cats": [
+      72
+    ],
+    "saas": true,
+    "description": "Booking Board is a gym-management platform that handles bookings, memberships, billing and access control for fitness facilities.",
+    "website": "https://bookingboard.io",
+    "dom": "a[href*='.bookingboard.io']"
+  },
+  "danDomain": {
+    "description": "DanDomain is a danish domain registrar and webhosting service.",
+    "cats": [
+      1,
+      88
+    ],
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "meta": {
+      "generator": "DanDomain Webshop"
+    },
+    "icon": "DanDomain.png",
+    "website": "https://dandomain.dk/"
+  },
+  "EasyCruit": {
+    "cats": [
+      101
+    ],
+    "description": "Visma EasyCruit is a cloud applicant-tracking solution for multi-department, multi-language hiring with automated screening.",
+    "dom": "iframe[src*='.easycruit.com'], a[href*='.easycruit.com']",
+    "icon": "EasyCruit.png",
+    "pricing": [
+      "poa",
+      "recurring",
+      "low"
+    ],
+    "saas": true,
+    "website": "https://easycruit.com"
+  },
+  "Elvium": {
+    "cats": [
+      101
+    ],
+    "description": "Elvium is a danish recruitment and HR platform with AI-driven candidate screening, onboarding workflows and digital contract management.",
+    "dom": [
+      "a[href*='.elvium.com/da/positions']",
+      "a[href*='.elvium.com/sv/positions']",
+      "a[href*='.elvium.com/en/positions']"
+    ],
+    "icon": "elvium.png",
+    "pricing": [
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://elvium.com"
+  },
+  "Emply": {
+    "cats": [
+      101
+    ],
+    "description": "Emply is a unified HR platform tying recruitment, onboarding, core HR, feedback and learning into one system.",
+    "dom": [
+      "a[href*='.career.emply.com']",
+      "a[href*='.emply.net/recruitment']"
+    ],
+    "icon": "emply.png",
+    "pricing": [
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://emply.com"
+  },
+  "Flexybox": {
+    "cats": [
+      72
+    ],
+    "saas": true,
+    "description": "Flexybox is a membership-management and bookings platform tailored for fitness centres and activity venues, covering classes, access control, billing and loyalty.",
+    "website": "https://flexybox.com",
+    "dom": "a[href*='.flexybox.com']"
+  },
+  "HR-ON": {
+    "cats": [
+      101
+    ],
+    "description": "HR-ON is a recruitment, onboarding and day-to-day HR administration system.",
+    "scriptSrc": "\\.hr-on\\.com",
+    "icon": "HR-ON.png",
+    "pricing": [
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://hr-on.com"
+  },
+  "Kindly": {
+    "cats": [
+      52
+    ],
+    "description": "Kindly.ai is a Norwegian conversational-AI platform that equips enterprise-scale e-commerce sites with multilingual chatbots that automate support, recover carts and drive sales.",
+    "icon": "kindly.png",
+    "js": {
+      "Kindly": ""
+    },
+    "pricing": [
+      "poa",
+      "high",
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "static\\.kindlycdn\\.com/kindly-chat\\.js",
+      "chat\\.kindlycdn\\.com/kindly-chat\\.js"
+    ],
+    "website": "https://kindly.ai"
+  },
+  "OpenRecruit": {
+    "cats": [
+      101
+    ],
+    "description": "OpenRecruit is an applicant tracing system (ATS) focused on “open recruiting” that automates candidate matching, employer branding and integrations",
+    "dom": "a[href*='.recruitio.dk']",
+    "icon": "openrecruit.png",
+    "pricing": [
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://openrecruit.net"
+  },
+  "Pondus": {
+    "cats": [
+      72
+    ],
+    "saas": true,
+    "description": "Pondus is a member-management platform for fitness centres, offering bookings, payments, retention analytics and class scheduling.",
+    "website": "https://pondus.io",
+    "dom": "a[href*='.pondus.io']"
+  },
+  "Reqruiting": {
+    "cats": [
+      101
+    ],
+    "description": "ReQruiting is an all-in-one HR and recruitment system for Danish SMEs with ATS, HR master-data, onboarding and whistle-blower/timesheet tools.",
+    "dom": [
+      "script[src*='reqruiting.com']",
+      "link[href*='reqruiting.com']",
+      "a[href*='reqruiting.com']"
+    ],
+    "icon": "Reqruiting.png",
+    "pricing": [
+      "mid",
+      "recurring",
+      "low"
+    ],
+    "saas": true,
+    "website": "https://reqruiting.com"
+  },
+  "Talentech / HR Manager": {
+    "cats": [
+      101
+    ],
+    "description": "Talentech is a unified recruitment, onboarding, talent management and HR administration platform.",
+    "dom": "iframe[src*='.hr-manager.net']",
+    "icon": "talentech.png",
+    "pricing": [
+      "freemium",
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://talentech.com"
+  },
+  "UserLink": {
+    "cats": [
+      52
+    ],
+    "description": "UserLink is a customer service chatbot platform that supplies AI-powered live-chat and chatbot agents.",
+    "pricing": [
+      "payg",
+      "low",
+      "mid",
+      "recurring"
+    ],
+    "icon": "userlink.png",
+    "scriptSrc": [
+      "files\\.userlink\\.ai/public/chatbot\\.js",
+      "files\\.userlink\\.ai/public/embed\\.min\\.js"
+    ],
+    "website": "https://userlink.ai"
+  },
+  "Vimeo": {
+    "cats": [
+      14
+    ],
+    "description": "Vimeo is a video hosting, sharing and services platform. Vimeo operation an ad-free basis by providing subscription plans.",
+    "dom": "iframe[src*='vimeo.com'],embed[src*='vimeo.com'],iframe[data-suppressedsrc*='vimeo.com']",
+    "icon": "Vimeo.svg",
+    "js": {
+      "Vimeo.Player": "",
+      "VimeoPlayer": ""
+    },
+    "saas": true,
+    "website": "http://vimeo.com"
+  },
+  "Weply": {
+    "cats": [
+      52
+    ],
+    "description": "Weply is a Nordic lead generation chat system designed to enhance lead generation from existing website traffic.",
+    "icon": "Weply.svg",
+    "js": {
+      "$$weply": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.weply\\.chat/"
+    ],
+    "website": "https://weply.chat"
+  },
+  "Wondr": {
+    "cats": [
+      72
+    ],
+    "saas": true,
+    "description": "Wondr is an all-in-one business system for fitness facilities covering bookings, memberships, payments and operations.",
+    "website": "https://wondr.cc",
+    "dom": "a[href*='.wondr.cc']"
+  }
+}

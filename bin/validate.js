@@ -1,5 +1,7 @@
 const fs = require('fs')
 
+const loadTechnologies = require('../src/load-technologies')
+
 const iconPath = './src/drivers/webextension/images/icons'
 
 const categories = JSON.parse(fs.readFileSync('./src/categories.json'))
@@ -33,12 +35,9 @@ for (const index of Array(27).keys()) {
       }
     }
   })
-
-  technologies = {
-    ...technologies,
-    ..._technologies,
-  }
 }
+
+technologies = loadTechnologies('./src/technologies')
 
 Object.keys(technologies).forEach((name) => {
   const technology = technologies[name]

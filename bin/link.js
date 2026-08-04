@@ -10,6 +10,7 @@ const link = (src, dest) => {
 
 link('./src/wappalyzer.js', './src/drivers/webextension/js/wappalyzer.js')
 link('./src/wappalyzer.js', './src/drivers/npm/wappalyzer.js')
+link('./src/load-technologies.js', './src/drivers/npm/load-technologies.js')
 
 link('./src/categories.json', './src/drivers/webextension/categories.json')
 link('./src/categories.json', './src/drivers/npm/categories.json')
@@ -26,3 +27,9 @@ for (const index of Array(27).keys()) {
     `./src/drivers/npm/technologies/${character}.json`
   )
 }
+
+link(
+  './src/technologies/custom.json',
+  './src/drivers/webextension/technologies/custom.json'
+)
+link('./src/technologies/custom.json', './src/drivers/npm/technologies/custom.json')

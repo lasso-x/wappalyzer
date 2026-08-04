@@ -150,6 +150,14 @@ const Driver = {
         }
       }
 
+      // custom.json is loaded last so fork-specific entries override letter files
+      technologies = {
+        ...technologies,
+        ...(await (
+          await fetch(chrome.runtime.getURL('technologies/custom.json'))
+        ).json()),
+      }
+
       Object.keys(technologies).forEach((name) => {
         delete technologies[name].description
         delete technologies[name].cpe
