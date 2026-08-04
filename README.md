@@ -4,7 +4,8 @@ Run these commands:
 ```
 yarn install
 yarn run build (will probably fail)
-Bump the version in src\drivers\npm\package.json
+cd into src\drivers\npm
+bump version in package.json
 npm login --scope=@lasso-x --registry=https://npm.pkg.github.com // Use a personal token as password
 npm publish --scope=@lasso-x --registry=https://npm.pkg.github.com
 ```
