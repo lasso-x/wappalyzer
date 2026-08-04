@@ -36,7 +36,7 @@
     "url": "https://github.com/lasso-x/wappalyzer/issues"
   },
   "homepage": "https://github.com/lasso-x/wappalyzer",
-  "version": "1.0.4",
+  "version": "1.0.10",
   "publishConfig": {
     "@lasso-x:registry": "https://npm.pkg.github.com"
   }
