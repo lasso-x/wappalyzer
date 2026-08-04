@@ -4,41 +4,10 @@ Run these commands:
 ```
 yarn install
 yarn run build (will probably fail)
-cd src\drivers\npm
-replace the package.json with the one below (bump the version)
+Bump the version in src\drivers\npm\package.json
 npm login --scope=@lasso-x --registry=https://npm.pkg.github.com // Use a personal token as password
 npm publish --scope=@lasso-x --registry=https://npm.pkg.github.com
 ```
-
-```
-{
-  "name": "@lasso-x/wappalyzer",
-  "version": "1.0.5",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/lasso-x/wappalyzer.git"
-  },
-  "main": "driver.js",
-  "files": [
-    "cli.js",
-    "categories.json",
-    "driver.js",
-    "index.js",
-    "technologies/*",
-    "wappalyzer.js"
-  ],
-  "bin": {
-    "wappalyzer": "./cli.js"
-  },
-  "dependencies": {
-    "puppeteer": "~19.7.0"
-  },
-  "engines": {
-    "node": ">=16"
-  }
-}
-```
-
 
 [![Validate](https://github.com/wappalyzer/wappalyzer/actions/workflows/validate.yml/badge.svg)](https://github.com/wappalyzer/wappalyzer/actions/workflows/validate.yml)
 [![wappalyzer NPM](https://img.shields.io/badge/npm-wappalyzer-blue)](https://www.npmjs.com/package/wappalyzer)
