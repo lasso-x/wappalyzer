@@ -14,6 +14,25 @@
     "saas": true,
     "website": "https://2people.com"
   },
+  "App4sales": {
+    "cats": [
+      6
+    ],
+    "saas": true,
+    "description": "App4Sales is a B2B e-commerce and ordering platform that lets wholesale customers order through a self-service webshop while sales reps take orders through a companion mobile app.",
+    "website": "https://www.app4sales.net",
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "icon": "App4sales.png",
+    "dom": [
+      "a[href*='.app4sales.net']",
+      "a[href*='.app4sales.com']",
+      "iframe[src*='app4sales.net']"
+    ],
+    "scriptSrc": "app4sales\\.net"
+  },
   "BRP Systems": {
     "cats": [
       72
@@ -31,6 +50,26 @@
     "description": "Booking Board is a gym-management platform that handles bookings, memberships, billing and access control for fitness facilities.",
     "website": "https://bookingboard.io",
     "dom": "a[href*='.bookingboard.io']"
+  },
+  "Colect": {
+    "cats": [
+      6
+    ],
+    "saas": true,
+    "description": "Colect.io is a Danish digital B2B sales and showroom platform for fashion and lifestyle brands, covering line sheets, order writing, digital showrooms and a self-service reorder portal (Brand Portal) for retailers.",
+    "website": "https://www.colect.io",
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "icon": "Colect.png",
+    "dom": [
+      "a[href*='.colect.io']",
+      "iframe[src*='colect.io']",
+      "link[href*='colect.services']",
+      "img[src*='colect.services']"
+    ],
+    "scriptSrc": "colect\\.(?:io|services)"
   },
   "danDomain": {
     "description": "DanDomain is a danish domain registrar and webhosting service.",
@@ -170,6 +209,41 @@
     "website": "https://pondus.io",
     "dom": "a[href*='.pondus.io']"
   },
+  "Shopify B2B": {
+    "cats": [
+      6
+    ],
+    "description": "Shopify B2B is Shopify's native wholesale feature set (company accounts, quantity rules, quick order lists) that lets Shopify Plus merchants sell to business customers alongside, or instead of, a regular storefront.",
+    "website": "https://www.shopify.com/plus/solutions/b2b-ecommerce",
+    "icon": "Shopify.svg",
+    "requires": "Shopify",
+    "dom": [
+      "quick-order-list",
+      "quick-order-list-row"
+    ],
+    "scriptSrc": [
+      "quick-order-list(?:-row)?\\.js",
+      "quantity-popover\\.js"
+    ]
+  },
+  "SPY System": {
+    "cats": [
+      6
+    ],
+    "saas": true,
+    "description": "SPY System (SPY) is a Danish all-in-one ERP and B2B order platform for fashion and lifestyle brands, including a B2B webshop portal hosted for each brand's retailers.",
+    "website": "https://www.spysystem.dk",
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "icon": "SPY.png",
+    "dom": [
+      "a[href*='.spysystem.dk']",
+      "iframe[src*='spysystem.dk']"
+    ],
+    "scriptSrc": "spysystem\\.dk"
+  },
   "Reqruiting": {
     "cats": [
       101
@@ -204,6 +278,46 @@
     ],
     "saas": true,
     "website": "https://talentech.com"
+  },
+  "Traede": {
+    "cats": [
+      6
+    ],
+    "saas": true,
+    "description": "Traede is a Danish ERP and B2B sales platform for fashion and lifestyle brands, providing order management, a B2B webshop and integrations with Shopify and accounting systems.",
+    "website": "https://traede.com",
+    "pricing": [
+      "poa",
+      "recurring",
+      "mid"
+    ],
+    "icon": "Traede.png",
+    "dom": [
+      "a[href*='traede.com']",
+      "link[href*='traede.com']"
+    ],
+    "scriptSrc": [
+      "traede\\.com",
+      "/apps/traede"
+    ]
+  },
+  "Turis": {
+    "cats": [
+      6
+    ],
+    "saas": true,
+    "description": "Turis is an AI-native B2B ecommerce platform providing a branded, self-serve B2B storefront for brands that sell to retailers.",
+    "website": "https://turis.app",
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "icon": "Turis.png",
+    "dom": [
+      "a[href*='.turis.app']",
+      "iframe[src*='turis.app']"
+    ],
+    "scriptSrc": "turis\\.app"
   },
   "UserLink": {
     "cats": [
